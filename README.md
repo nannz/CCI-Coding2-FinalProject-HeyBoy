@@ -35,8 +35,6 @@ I logged the ideation and development process on my blog. It includes the follow
 
    - After trying the three methods, I chose just use threeJS without bring more libraries. More tryout results and thinkgings are in the blog.
 
-   - <iframe width="740" height="416" src="https://www.youtube.com/embed/7fX1Xmwm2ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 5. **[Development] Development 2 – recreate bodypix in threeJS renderer:** [link](https://nanzhaodocumentations.wordpress.com/2021/04/04/coding2-final-progress-development-2-recreate-bodypix-in-threejs-renderer/)
 
    - <img src="./README.assets/threejs-bodypix-and-meshes.png" alt="img" style="zoom:50%;" />
@@ -49,7 +47,7 @@ I logged the ideation and development process on my blog. It includes the follow
 
    - <img src="./README.assets/dev-4-link-body.png" alt="dev-4-link-body" style="zoom:50%;" />
 
-8. **[Development] Development 5 – Finalize the project, GPU Renderer and Next Step: **[link](https://nanzhaodocumentations.wordpress.com/2021/04/13/coding2-final-progress-development-5-finalize-the-project-gpu-renderer-and-next-step/)
+8. **[Development] Development 5 – Finalize the project, GPU Renderer and Next Step:** [link](https://nanzhaodocumentations.wordpress.com/2021/04/13/coding2-final-progress-development-5-finalize-the-project-gpu-renderer-and-next-step/)
 
    - I cleaned up the code, refined the user interface via CSS
 
@@ -57,7 +55,7 @@ I logged the ideation and development process on my blog. It includes the follow
 
    - I tried to embedded the particles/birds into the project.(Failed) And frame the next step of the project
 
-   - <img src="./README.assets/hey-boy-1.png" alt="img" style="zoom:50%;" />- 
+   - <img src="./README.assets/hey-boy-1.png" alt="img" style="zoom:50%;" />
 
      
 

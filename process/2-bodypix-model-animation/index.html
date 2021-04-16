@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>combine bodypix and model animation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Combine Bodypix-webcam-test with Threejs-interactive-model-test</h1>
+<section id="modelWrap" class="invisible">
+    <p>Try this out using your webcam. </p>
+    <div id="liveView" class="webcam">
+        <button id="webcamButton">Enable Webcam</button>
+        <video id="webcam" autoplay></video>
+    </div>
+</section>
+
+<!-- The loading element overlays all else-->
+<div class="loading" id="js-loader"><div class="loader"></div></div>
+
+<!-- Import TensorFlow.js library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" type="text/javascript"></script>
+<!-- Load the bodypix model to recognize body parts in images -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+
+<!-- Import the page's JavaScript to do some stuff -->
+<script src="bodypix-script.js" defer></script>
+<script src="three-script.js" type="module"></script>
+
+</body>
+</html>

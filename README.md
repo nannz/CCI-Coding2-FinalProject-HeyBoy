@@ -6,13 +6,15 @@
 
 **Hey Boy** is a web-based interaction experience. After clicking the button, you can rotate the boy's head by rotating your own head. You can also make the boy jump if you have an exciting pose of raising you arms. 
 
-Bodypix model is used to sense the poses and body parts' positions. ThreeJS is used to build the whole environment and the experience.
+**Tech:** Bodypix model is used to sense the poses and body parts' positions. ThreeJS is used to build the whole environment and the experience.
 
-The project is located in the directory called ["hey-boy"](./hey-boy/), while other tryouts and processes are in the ["process"](./process/) directory. Two demo videos are in the ["demo-video"](./demo-video/).
+**Project Details:** The project is located in the directory called ["hey-boy"](./hey-boy/), while other tryouts and processes are in the ["process"](./process/) directory. Two demo videos are in the ["demo-video"](./demo-video/). You can also watch the demo video on [YouTube](https://youtu.be/9jDNxHdfbvQ).
 
-You can also watch the demo video on [YouTube](https://youtu.be/9jDNxHdfbvQ).
+**Github repo**: The project repo is on github [here](https://github.com/nannz/CCI-Coding2-FinalProject-HeyBoy).
 
 **Keywords**: #bodypix-model, #tensorflow.js, #three.js, #body-interaction
+
+By Nan Zhao | n.zhao0320201@arts.ac.uk
 
 ## Documentations
 
@@ -34,8 +36,6 @@ I logged the ideation and development process on my blog. It includes the follow
 4. **[Development] Development 1 – threeJS vs p5shader vs ml5**: [link](https://nanzhaodocumentations.wordpress.com/2021/04/02/coding2-final-progress-development-1-threejs-vs-p5shader-vs-ml5/)
 
    - After trying the three methods, I chose just use threeJS without bring more libraries. More tryout results and thinkgings are in the blog.
-
-   - <iframe width="740" height="416" src="https://www.youtube.com/embed/7fX1Xmwm2ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 5. **[Development] Development 2 – recreate bodypix in threeJS renderer:** [link](https://nanzhaodocumentations.wordpress.com/2021/04/04/coding2-final-progress-development-2-recreate-bodypix-in-threejs-renderer/)
 

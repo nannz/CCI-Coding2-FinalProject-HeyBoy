@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('./fonts/icomoon/icomoon.eot');
+    src:url('./fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/icomoon/icomoon.woff') format('woff'),
+        url('./fonts/icomoon/icomoon.ttf') format('truetype'),
+        url('./fonts/icomoon/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+section {
+    opacity: 1;
+    transition: opacity 800ms ease-in-out;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, p {
+    z-index: 95;
+    width:100%;
+    height:50px;
+    text-align: center;
+    color: #49a7df;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: inherit;
+}
+
+h1{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.webcam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.ui{
+    position: absolute;
+}
+
+.invisible {
+    opacity: 0.2;
+}
+
+/*btn CSS and font face credit to https://tympanus.net/Development/CreativeButtons/*/
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 8 */
+.perspective {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    perspective: 800px;
+    display: inline-block;
+}
+
+.btn-8 {
+    display: block;
+    background: #5cbcf6;
+    outline: 1px solid transparent; /* FF jagged edges fix */
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+.btn-8:active {
+    background: #55b7f3;
+}
+/* Button 8c */
+.btn-8c:after {
+    width: 21%; /* should be 20% but there's a gap in Chrome Version 34.0.1847.131 */
+    height: 100%;
+    left: -20%;
+    top: 0;
+    background: #49a7df;
+    -webkit-transform-origin: 100% 0%;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform-origin: 100% 0%;
+    -moz-transform: rotateY(-90deg);
+    -ms-transform-origin: 100% 0%;
+    -ms-transform: rotateY(-90deg);
+    transform-origin: 100% 0%;
+    transform: rotateY(-90deg);
+}
+
+.btn-8c:hover {
+    -webkit-transform: rotateY(15deg);
+    -moz-transform: rotateY(15deg);
+    -ms-transform: rotateY(15deg);
+    transform: rotateY(15deg);
+}
+
+.removed {
+    display: none;
+}

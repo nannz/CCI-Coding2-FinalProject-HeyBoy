@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hey Boy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="modelWrap" class="invisible" class="ui">
+    <h1>Hey Boy!</h1>
+    <p>Move your head and body to have fun!</p>
+    <div id="liveView" class="webcam">
+        <button id="webcamButton" class="btn btn-8 btn-8c">Enable Webcam to Start</button>
+        <video id="webcam" autoplay class ='removed'></video>
+    </div>
+</section>
+
+
+<!-- Import TensorFlow.js library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" type="text/javascript"></script>
+<!-- Load the bodypix model to recognize body parts in images -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+
+<!-- Import the page's JavaScript to do some stuff -->
+<script src="bodypix-script.js" defer></script>
+<script src="three-script.js" type="module"></script>
+
+</body>
+</html>

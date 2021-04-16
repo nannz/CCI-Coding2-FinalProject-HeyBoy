@@ -8,9 +8,9 @@
 
 Bodypix model is used to sense the poses and body parts' positions. ThreeJS is used to build the whole environment and the experience.
 
-The project is located in the directory called"hey-boy", while other tryouts and processes are in the "process" directory. Two demo videos are in the "demo-video".
+The project is located in the directory called ["hey-boy"](./hey-boy/), while other tryouts and processes are in the ["process"](./process/) directory. Two demo videos are in the ["demo-video"](./demo-video/).
 
-<iframe width="739" height="416" src="https://www.youtube.com/embed/9jDNxHdfbvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can also watch the demo video on [YouTube](https://youtu.be/9jDNxHdfbvQ).
 
 **Keywords**: #bodypix-model, #tensorflow.js, #three.js, #body-interaction
 
